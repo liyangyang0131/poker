@@ -1,0 +1,115 @@
+body{
+	margin:0;
+	background:url('../images/l5.jpg');
+	font-family:'Helvetica Neue LT Pro'; 
+}
+.center{
+	width:1120px;
+	height:667px;
+	margin:0 auto;
+	position:relative;
+	/*border:1px solid red;*/
+}
+.center:hover{
+	cursor: pointer;
+}
+.playcard{
+	width:120px;
+	height:160px;
+	/*border:1px solid #E5E5E5;*/
+	border-radius: 5px;
+	position:absolute;
+	left:0;
+	top:0;
+	background-size: cover;
+	font-size:26px;
+	color:#333;
+}
+.move{
+	width:120px;
+	height:160px;
+	border-radius: 5px;
+}
+.moveLeft{
+	position:absolute;
+	left: 200px;
+    bottom: 10px;
+}
+
+.moveRight{
+	position:absolute;
+	right:200px;
+	bottom:10px;
+}
+.button{
+	width:120px;
+	height:50px;
+	/*background-image:linear-gradient(#a2eb76,#42a35c);
+	box-shadow: 0 3px 5px #007067;
+	color:#e7ffd4;*/
+	background-image:linear-gradient(#92e8ff,#158cb6);
+	box-shadow: 0 3px 5px #006c92;
+	color:#d8f8ff;
+	border-radius: 8px;
+	text-align:center;
+	line-height:50px;
+	font-size:24px;
+}
+.nextButton{
+	position:absolute;
+	left: 45%;
+  	bottom: 100px; 	
+}
+.againButton{
+	position:absolute;
+	left: 45%;
+  	bottom: 20px;
+}
+.win{
+	width:250px;
+	height:380px;
+	background:#fff;
+	position: absolute;
+	left:41%;
+	top:18%;
+	z-index:80;
+	border-radius:10px;
+
+	background-size: cover;
+	display:none;
+}
+.zhezhao{
+	width:250px;
+	height:380px;
+	background-color:rgba(0,0,0,0.7);
+	position: absolute;
+	left:41%;
+	top:18%;
+	z-index:90;
+	border-radius:10px;
+	display: none;
+}
+.btn{
+	width:180px;
+	height:60px;
+	border-radius: 12px;
+	text-align:center;
+	line-height:60px;
+	font-size:32px;
+
+	background-image:linear-gradient(#a2eb76,#42a35c);
+	box-shadow: 0 3px 5px #007067;
+	color:#e7ffd4;
+
+	position: absolute;
+	left:35px;
+	bottom:80px;
+	cursor: pointer;
+}
+.word{
+	margin-top:100px;
+	text-align: center;
+	line-height: 40px;
+	font-size: 60px;
+	color:#fff;
+}
